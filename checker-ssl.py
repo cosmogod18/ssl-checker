@@ -32,7 +32,7 @@ class SslChecker():
                 self.RECEIVE_EMAIL = True                                               # Change to False if you dont wanna get emails.
                 self.subject = f"{TODAY} SSL expire soon. less then in 10 days"         # Email subject.
                 self.FROM = "my@email"                                      # Email sender.
-                self.filename = '/root/2021/django-ssl-checker/domain_list.txt'         # Text file with domain list to check for SSL expiration.
+                self.filename = 'domain_list.txt'         # Text file with domain list to check for SSL expiration.
                 self.domains = []                                                       # List of domains that need SSL upgrade.
                 self.days = 10                                                          # Check if SSL expires less than in 10 days.
 

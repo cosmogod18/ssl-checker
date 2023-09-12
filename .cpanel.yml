@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tomk/public_html/
-    - /bin/cp /home/tomk/repositories/ssl_checker/mailer.py $DEPLOYPATH
+    - /bin/cp mailer.py $DEPLOYPATH
